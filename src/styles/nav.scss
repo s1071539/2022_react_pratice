@@ -1,0 +1,12 @@
+nav {
+  background-color: lightpink;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+  }
+  li {
+    padding: 0.5rem 1rem;
+  }
+}

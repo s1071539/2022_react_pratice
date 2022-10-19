@@ -1,0 +1,12 @@
+nav {
+  background-color: lightpink;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+nav li {
+  padding: 0.5rem 1rem;
+}/*# sourceMappingURL=nav.css.map */
