@@ -1,10 +1,10 @@
 import React from "react";
 
-const Search = () => {
+const Search = ({ goSearch }) => {
   return (
-    <div>
+    <div className="mySearch">
       <input type="text" />
-      <button>Search</button>
+      <button onClick={goSearch}>Search</button>
     </div>
   );
 };
