@@ -1,0 +1,24 @@
+.myPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .myPhoto {
+    width: 30vw;
+    padding: 1rem;
+    .photoContainer {
+      overflow: hidden;
+      height: 40vh;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease;
+      }
+      img:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
